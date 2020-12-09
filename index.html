@@ -12,25 +12,29 @@
   </head>
   <body>
 
+      <div class="wrapper">
 
-      <div id="slider_block">
+        <div id="slider_block">
+          <div class="prev_block">
+            <div class="prev" @click="prevImage()">
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
 
-        <div class="prev_block">
-          <div class="prev" @click="prevImage()">
-            <i class="fas fa-angle-left"></i>
+          <img :src="images[indexImage]" alt="foto gattino">
+
+          <div class="next_block">
+            <div class="next" @click="nextImage()">
+              <i class="fas fa-angle-right"></i>
+            </div>
           </div>
         </div>
 
-        <img :src="images[indexImage]" alt="foto gattino">
-
-        <div class="next_block">
-          <div class="next" @click="nextImage()">
-            <i class="fas fa-angle-right"></i>
-          </div>
+        <div class="circles_slider">
+          <i class="fas fa-circle"></i>
         </div>
 
       </div>
-
 
 
   <script src="js/script.js" charset="utf-8"></script>
