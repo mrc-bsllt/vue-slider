@@ -6,7 +6,7 @@ const sliderBlock = new Vue (
       images: ["img/img00.jpg", "img/img01.jpg", "img/img02.jpg", "img/img03.jpg", "img/img04.jpg", "img/img05.jpg"]
     },
     created: function() {
-      setInterval(this.nextImage, 2000);
+      setInterval(this.nextImage, 4000);
     },
     methods: {
       prevImage: function() {
