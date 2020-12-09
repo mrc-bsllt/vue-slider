@@ -79,4 +79,5 @@ body {
 }
 .circles_slider i.active {
   color: #ffffff;
+  transition: color 0.4s linear;
 }

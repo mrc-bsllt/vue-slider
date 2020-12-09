@@ -31,7 +31,7 @@
         </div>
 
         <div class="circles_slider">
-          <i class="fas fa-circle"></i>
+          <i v-for="(image, index) in images" :class="(index == indexImage) ? 'active' : ''" class="fas fa-circle"></i>
         </div>
 
       </div>
