@@ -16,10 +16,7 @@ body {
   height: 100vh;
 }
 #slider_block {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  position: relative;
   width: 60%;
   height: 500px;
   background-color: rgba(255, 255, 255, 0.3);

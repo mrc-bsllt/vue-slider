@@ -1,6 +1,6 @@
 const sliderBlock = new Vue (
   {
-    el: "#slider_block",
+    el: ".wrapper",
     data: {
       indexImage: 0,
       images: ["img/img00.jpg", "img/img01.jpg", "img/img02.jpg", "img/img03.jpg", "img/img04.jpg", "img/img05.jpg"]
